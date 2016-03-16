@@ -1,4 +1,4 @@
-<tr>
+<tr onclick={{action "rowAction" record}} style="cursor:pointer;">
   {{#each processedColumns as |column|}}
     {{#if column.isVisible}}
       <td class={{column.className}}>

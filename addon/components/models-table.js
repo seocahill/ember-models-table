@@ -1033,6 +1033,10 @@ export default Component.extend({
     changeFilterForColumn (column) {
       let val = this.$(`.changeFilterForColumn.${get(column, 'propertyName')}`)[0].value;
       set(column, 'filterString', val);
+    },
+
+    rowAction(record) {
+      this.attrs.onRowClick(record);
     }
 
   }
