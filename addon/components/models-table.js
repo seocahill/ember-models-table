@@ -53,14 +53,14 @@ const defaultMessages = {
 };
 
 const defaultIcons = {
-  'sort-asc': 'glyphicon glyphicon-triangle-bottom',
-  'sort-desc': 'glyphicon glyphicon-triangle-top',
-  'column-visible': 'glyphicon glyphicon-check',
-  'column-hidden': 'glyphicon glyphicon-unchecked',
-  'nav-first': 'glyphicon glyphicon-chevron-left',
-  'nav-prev': 'glyphicon glyphicon-menu-left',
-  'nav-next': 'glyphicon glyphicon-menu-right',
-  'nav-last': 'glyphicon glyphicon-chevron-right',
+  'sort-asc': 'fa fa-sort-asc',
+  'sort-desc': 'fa fa-sort-desc',
+  'column-visible': 'fa fa-check-square-o',
+  'column-hidden': 'fa fa-square-o',
+  'nav-first': 'fa fa-angle-left',
+  'nav-prev': 'fa fa-angle-double-left',
+  'nav-next': 'fa fa-angle-double-right',
+  'nav-last': 'fa fa-angle-right',
   'caret': 'caret'
 };
 
